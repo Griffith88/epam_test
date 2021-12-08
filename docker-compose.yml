@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  epam:
+    image: vdobrokhotov/epam_weather:v1.2
+    volumes:
+      - ./epam/secret:/usr/src/epam/secret
+    entrypoint: ./entrypoint.sh 
+    ports:
+      - "8000:8000"
+

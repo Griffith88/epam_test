@@ -1,0 +1,3 @@
+#ignore
+/epam/secret/.env
+/epam/db.sqlite3
